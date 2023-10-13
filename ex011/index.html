@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Aprendendo a usar imagens com tamanhos diferentes para dispotiviso diferentes</h1>
+    <p>A tag picture permite que use diferentes tags de img</p>
+    <p>O max width faz com que a imagem seja carregada ATÉ o número de pixels
+        digitado.</p>
+        <p><a href="pagina2.html">Link</a> para a segunda página com áudio</p>
+        <p><a href="pagina3.html">Link</a> para a terceira página com um vídeo</p>
+        <p><a href="pagina4.html">Link</a> para a segunda página com um vídeo do youtube</p>
+    <picture>
+        <source media="(max-width: 700px )" srcset="imagens/imagen-p.jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/imagen-m.jpg">
+        <img src="imagens/imagen-g.jpg" alt="Imagen adaptavel">
+    </picture>
+</body>
+</html>

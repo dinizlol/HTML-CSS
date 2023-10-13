@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right, blue, purple);
+}   
+h1 {
+    color: azure;
+}
+h1.principal {
+    text-align: center;
+}
+h2.basico {
+    color: darkkhaki;
+}
+
+p {
+    font: italic bolder 1.5em 'work sans', san-serif;
+}
+h2.intermediario {
+    color: dimgray;
+}
+h2.avançado {
+    color:indigo
+}
